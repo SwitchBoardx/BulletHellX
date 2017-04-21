@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject", "FinalProject\FinalProject.csproj", "{C284D8B1-8932-446B-911A-D9161A7825DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteClasses", "SpriteClasses\SpriteClasses.csproj", "{7AA60A81-A2EE-489C-8E07-D2E490A19E22}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "BulletHellX", "BulletHellX\BulletHellX.isproj", "{0E0159A1-339A-4342-8164-B59E7FEB8772}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C284D8B1-8932-446B-911A-D9161A7825DC} = {C284D8B1-8932-446B-911A-D9161A7825DC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x86 = Debug|x86
+		DVD-5|x86 = DVD-5|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.CD_ROM|x86.ActiveCfg = Release|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.CD_ROM|x86.Build.0 = Release|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.Debug|x86.ActiveCfg = Debug|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.Debug|x86.Build.0 = Debug|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.DVD-5|x86.ActiveCfg = Debug|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.DVD-5|x86.Build.0 = Debug|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.Release|x86.ActiveCfg = Release|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.Release|x86.Build.0 = Release|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.SingleImage|x86.ActiveCfg = Release|x86
+		{C284D8B1-8932-446B-911A-D9161A7825DC}.SingleImage|x86.Build.0 = Release|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.CD_ROM|x86.ActiveCfg = Release|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.CD_ROM|x86.Build.0 = Release|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.Debug|x86.ActiveCfg = Debug|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.Debug|x86.Build.0 = Debug|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.DVD-5|x86.ActiveCfg = Debug|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.DVD-5|x86.Build.0 = Debug|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.Release|x86.ActiveCfg = Release|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.Release|x86.Build.0 = Release|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.SingleImage|x86.ActiveCfg = Release|x86
+		{7AA60A81-A2EE-489C-8E07-D2E490A19E22}.SingleImage|x86.Build.0 = Release|x86
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.CD_ROM|x86.Build.0 = CD_ROM
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.Debug|x86.ActiveCfg = DVD-5
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.Debug|x86.Build.0 = DVD-5
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.DVD-5|x86.ActiveCfg = DVD-5
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.DVD-5|x86.Build.0 = DVD-5
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.Release|x86.ActiveCfg = SingleImage
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.Release|x86.Build.0 = SingleImage
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.SingleImage|x86.ActiveCfg = SingleImage
+		{0E0159A1-339A-4342-8164-B59E7FEB8772}.SingleImage|x86.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
